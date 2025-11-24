@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html>
+<h1>Hello World!</h1>
+
+    <head>
+        <title>My First HTML Page</title>
+    </head>
+    <body>
+       
+      <!-- Sidebar Navigation -->
+<nav class="sidebar">
+  <h2>Joma Alrzini</h2>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">CV</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <button id="darkToggle" class="dark-btn">🌙 Dark Mode</button>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero reveal">
+    <img src="https://via.placeholder.com/150" class="profile" alt="Profile Image">
+    <h1>Hello, I'm <span>Joma Alrzini</span></h1>
+    <p>Computer Science Student</p>
+    <button class="btn" onclick="scrollToSection('projects')">Work History</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about reveal">
+    <h2>About Me</h2>
+    <p>
+      I'm a PhD student at the university of Strathclyde,
+      with computer scince backgound, and I am at entry level of coding as my practical skills are elementry level. I love learning how to code web apps. 
+      My dreem is to become software developer.
+    </p>
+  </section>
+
+  <!-- Work -->
+  <section id="projects" class="section projects reveal">
+    <h2>Work Experiance</h2>
+
+    <div class="cards">
+      <div class="card reveal">
+        <h3>Teaching</h3>
+        <p>A sleek, responsive portfolio built with HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Office work</h3>
+        <p>Live weather data with API integration and smart backgrounds.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Other work</h3>
+        <p>A clean modern landing page with animations and scroll effects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="section contact reveal">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Jane Doe • Designed & Built by Me</p>
+  </footer>
+
+</div>
+    </body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
